@@ -6,7 +6,7 @@
 </template>
 <style>
 .category {
-  width: 300px;
+  padding: 5px 10px;
 }
 .category p {
   background: gainsboro;
