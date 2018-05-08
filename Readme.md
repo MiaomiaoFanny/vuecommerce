@@ -1,4 +1,4 @@
-## VUECOMMERCE
+## BIKESHOP
 
 A super E-Commerce website using generator-vuecommerce to generate skeleton
 
