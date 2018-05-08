@@ -12,4 +12,6 @@ deploy:
   - provider: npm
     email: $NPM_EMAIL
     token: $NPM_TOKEN
+    on:
+      tag: true
 script: yarn build
