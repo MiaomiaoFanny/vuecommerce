@@ -4,9 +4,8 @@ node_js:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: 013a40b1d23d9728f50e5657c64d84069faf6dd1 
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
-  local-dir: ./build
   on:
     branch: master
 script: yarn build
