@@ -1,6 +1,7 @@
 <template>
   <div class="category">
-    {{ name }}
+      <h1>{{ name }}</h1>
+    
   </div>
 </template>
 <style>
