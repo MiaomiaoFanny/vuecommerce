@@ -9,7 +9,7 @@
   padding: 5px 10px;
 }
 .category p {
-  background: gainsboro;
+  background: #d16363;
   color: #dddddd;
   padding: 10px;
 }
