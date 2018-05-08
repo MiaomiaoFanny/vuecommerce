@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "8.9.4"
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 013a40b1d23d9728f50e5657c64d84069faf6dd1 
+  keep-history: true
+  local-dir: ./build
+  on:
+    branch: master
+script: yarn build
