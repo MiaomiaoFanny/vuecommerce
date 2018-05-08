@@ -8,6 +8,11 @@
 .category {
   width: 300px;
 }
+.category p {
+  background: gainsboro;
+  color: #dddddd;
+  padding: 10px;
+}
 </style>
 <script>
 import { mapState } from 'vuex';
